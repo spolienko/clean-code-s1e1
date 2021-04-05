@@ -45,7 +45,7 @@ h3 {
     list-style: none;
 }
 input,
-button{
+button {
     outline: none;
 }
 button {
@@ -119,7 +119,7 @@ li > label {
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
     width: 226px;
 }
 button.delete img {
