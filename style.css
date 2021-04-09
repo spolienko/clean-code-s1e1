@@ -159,7 +159,7 @@ button {
 
 /* Completed */
 
-.completed-task__message {
+#completed-tasks .completed-task__message {
   text-decoration: line-through;
   color: #888;
 }
