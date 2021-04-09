@@ -19,27 +19,27 @@
         <label class="label__task label__new-task">Add Item</label>
       <div class="add__task-row-wrapper">
         <input class="task add__new-task new__task-input" type="text">
-        <button class="add__button">Add</button>
+        <button class="add__button button">Add</button>
       </div>
     </section>
     <section class="to-do">
       <h3 class="title">Todo</add__new-task>
       <ul class="incomplete-tasks" id="incomplete-tasks">
-        <li class="incomplete-task">
-          <input type="checkbox">
+        <li class="incomplete-task li">
+          <input class="checkbox" type="checkbox">
           <label class="incomplete-task__message task">Pay Bills</label>
-          <input class="incomplete-task__new-message task" type="text">
-          <button class="edit">Edit</button>
-          <button class="delete">
+          <input class="incomplete-task__new-message task task-invisible" type="text">
+          <button class="edit button">Edit</button>
+          <button class="delete button">
             <img class="delete__image" src="./remove.svg" alt="">
           </button>
         </li>
-        <li class="incomplete-task edit-mode">
-          <input type="checkbox">
+        <li class="incomplete-task edit-mode li">
+          <input class="checkbox" type="checkbox">
           <label class="incomplete-task__message task">Go Shopping</label>
-          <input class="incomplete-task__new-message task" value="go shopping" type="text">
-          <button class="edit">Save</button>
-          <button class="delete">
+          <input class="incomplete-task__new-message task task-invisible" value="go shopping" type="text">
+          <button class="edit button">Save</button>
+          <button class="delete button">
             <img class="delete__image" src="./remove.svg" alt="">
           </button>
         </li>
@@ -48,12 +48,12 @@
     <section class="completed">
       <h3 class="title">Completed</h3>
       <ul class="completed-tasks" id="completed-tasks">
-        <li class="completed-task">
-          <input type="checkbox" checked>
+        <li class="completed-task li">
+          <input class="checkbox" type="checkbox" checked>
           <label class="completed-task__message task">See the Doctor</label>
-          <input type="text" class="completed-task__new-message task">
-          <button class="edit">Edit</button>
-          <button class="delete">
+          <input type="text" class="completed-task__new-message task task-invisible">
+          <button class="edit button">Edit</button>
+          <button class="delete button">
             <img class="delete__image" src="./remove.svg" alt="">
           </button>
         </li>

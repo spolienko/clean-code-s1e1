@@ -46,16 +46,16 @@
   margin: 0;
   padding: 0px;
 }
-li,
+li, /* сброс стилей */
 h3 {
   list-style: none;
 }
-input,
+input, /* сброс стилей */
 button {
   outline: none;
 }
 
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -65,7 +65,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 
@@ -117,7 +117,7 @@ button:hover {
 
 /* Task list */
 
-li {
+.li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -126,11 +126,11 @@ li {
   align-items: center;
 }
 
-li > * {
+.li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.li > .checkbox {
   margin: 0 10px;
 }
 
@@ -166,7 +166,7 @@ li > input[type="checkbox"] {
 
 /* Edit Task */
 
-ul li input[type="text"] {
+.task-invisible {
   display: none;
 }
 
